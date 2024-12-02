@@ -17,10 +17,9 @@
 - Authenticate to project via Git
 
 ## Start app
-- In VS Code run `npm start`
-
-## Start app
 - In VS Code run or debug "Start App" launch configuration
+or
+- In VS Code run `npm start`
 
 > NB: the configuration will restore packages and start app
 
