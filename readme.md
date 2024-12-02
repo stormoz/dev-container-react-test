@@ -19,6 +19,11 @@
 ## Start app
 - In VS Code run `npm start`
 
+## Start app
+- In VS Code run or debug "Start App" launch configuration
+
+> NB: the configuration will restore packages and start app
+
 ## Available Scripts
 
 In the project directory, you can run:
