@@ -4,9 +4,26 @@
     {
       "type": "npm",
       "script": "start",
-      "problemMatcher": [],
+      "problemMatcher": [
+        {
+          "owner": "custom",
+          "pattern": [
+            {
+              "regexp": ".*Compiled successfully\\.",
+              "file": 1,
+              "message": 0
+            }
+          ],
+          "background": {
+            "activeOnStart": true,
+            "beginsPattern": ".*Compiled successfully\\.",
+            "endsPattern": ".*Files successfully emitted\\."
+          }
+        }
+      ],
+      "isBackground": true,
       "label": "start",
-      "detail": "react-scripts start",
+      "detail": "react-scripts start"
     }
   ]
 }
